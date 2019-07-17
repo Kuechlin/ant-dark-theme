@@ -1,0 +1,13 @@
+{
+  "name": "ant-design-dark-theme",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "antd": "^3.20.3",
+    "less": "^3.9.0",
+    "less-plugin-clean-css": "^1.5.1"
+  },
+  "scripts": {
+    "build": "lessc -js -clean-css=\"s0\" dark.less dark.min.css"
+  }
+}
