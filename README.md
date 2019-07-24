@@ -14,3 +14,16 @@ Copy dark.less and import it instead of antd.css
 Copy dark.min.css and import it instead of antd.css
 
     import 'dark.min.css';
+
+# Dark Scrollbar
+Dark Scrollbar is only available in WebKit-based browsers. (Chrome, Opera, Safari)
+## Usage
+### Less
+Copy chrome.scrollbar.less and import it
+
+    import 'chrome.scrollbar.less';
+
+### CSS
+Copy chrome.scrollbar.css and import it
+
+    import 'chrome.scrollbar.css';

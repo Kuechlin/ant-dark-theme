@@ -28,7 +28,7 @@ export default function LayoutTest({ children }: { children: any }) {
                     <Breadcrumb.Item>List</Breadcrumb.Item>
                     <Breadcrumb.Item>App</Breadcrumb.Item>
                 </Breadcrumb>
-                <div>
+                <div style={{ width: '105%' }}>
                     {children}
                 </div>
             </Content>

@@ -15,12 +15,16 @@ export default class Theme extends React.Component<{}, State> {
     }
 
     link: HTMLLinkElement;
+    link_scroll: HTMLLinkElement;
 
     constructor(props: any) {
         super(props);
         this.link = document.createElement('link');
+        this.link_scroll = document.createElement('link');
         this.link.rel = "stylesheet";
+        this.link_scroll.rel = "stylesheet";
         document.head.appendChild(this.link);
+        document.head.appendChild(this.link_scroll);
 
         let dark = is_dark();
         this.state = { dark };
@@ -42,8 +46,10 @@ export default class Theme extends React.Component<{}, State> {
     updateTheme = (dark: boolean) => {
         if (dark) {
             this.link.href = "dark.min.css";
+            this.link_scroll.href = "chrome.scrollbar.css";
         } else {
             this.link.href = "light.min.css";
+            this.link_scroll.href = "";
         }
     }
 
