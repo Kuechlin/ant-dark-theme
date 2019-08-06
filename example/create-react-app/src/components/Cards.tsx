@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card } from 'antd';
+import { Button, Card, Divider } from 'antd';
 
 
 export default function Cards() {
