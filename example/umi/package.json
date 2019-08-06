@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "test": "umi test"
+  },
+  "dependencies": {
+    "antd": "^3.19.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-test-renderer": "^16.0.3",
+    "react-test-renderer": "^16.7.0",
+    "umi": "^2.7.0",
+    "umi-plugin-react": "^1.8.0",
+    "umi-types": "^0.3.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
