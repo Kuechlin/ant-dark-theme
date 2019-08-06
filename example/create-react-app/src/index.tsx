@@ -9,6 +9,7 @@ import LayoutTest from './components/LayoutTest';
 import Menus from './components/Menus';
 import Cards from './components/Cards';
 import Alerts from './components/Alerts';
+import './dark.less';
 
 function Root() {
     return (
