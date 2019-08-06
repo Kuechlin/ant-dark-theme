@@ -32,6 +32,7 @@ module.exports = {
     '@component-background': main_light,
     '@item-active-bg': primary,
     '@item-hover-bg': primary,
+    '@menu-highlight-color': text,
     '@table-row-hover-bg': `darken(${primary}, 10%)`,
     '@border-color-base': main_dark,
     '@border-color-split': main_light,

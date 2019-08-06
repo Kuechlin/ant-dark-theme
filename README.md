@@ -15,6 +15,11 @@ Copy dark.min.css and import it instead of antd.css
 
     import 'dark.min.css';
 
+### UMI
+Import dark.js in .umirc.ts
+
+    "theme": "./dark.js"
+
 # Dark Scrollbar
 Dark Scrollbar is only available in WebKit-based browsers. (Chrome, Opera, Safari)
 ## Usage
