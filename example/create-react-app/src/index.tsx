@@ -11,6 +11,7 @@ import Cards from './components/Cards';
 import Alerts from './components/Alerts';
 import './dark.less';
 import { Divider } from 'antd';
+import DescriptionTest from './components/DescriptionTest';
 
 function Root() {
     return (
@@ -31,6 +32,8 @@ function Root() {
             <Menus />
             <Divider>Cards</Divider>
             <Cards />
+            <Divider>Descriptions</Divider>
+            <DescriptionTest />
         </LayoutTest>
     );
 }

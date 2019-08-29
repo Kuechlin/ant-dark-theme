@@ -29,6 +29,18 @@ export default function Menus() {
                     Hover me <Icon type="down" />
                 </a>
             </Dropdown>
+
+            <Menu mode="horizontal">
+                <Menu.Item>
+                    1st menu item
+                </Menu.Item>
+                <Menu.Item>
+                    2nd menu item
+                </Menu.Item>
+                <Menu.Item>
+                    3rd menu item
+                </Menu.Item>
+            </Menu>
         </div>
     );
 }
